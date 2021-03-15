@@ -35,4 +35,3 @@ def get_probabilities(people):
         return {} # Maybe make error
     probabilities = calculate_probabilities(people)
     return jsonify(probabilities)
-    

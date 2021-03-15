@@ -1,3 +1,6 @@
-Flask==1.1.2
-Flask-Session==0.3.2
-Werkzeug==1.0.1
+Flask
+Flask-Session
+Jinja2
+gunicorn
+requests
+Werkzeug
