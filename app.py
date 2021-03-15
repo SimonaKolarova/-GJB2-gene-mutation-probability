@@ -31,7 +31,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Calculate probabilities using user-provided information and bayesian network
-@app.route("/", methods=["POST"])
+@app.route("/<people>", methods=["POST"])
 def get_probabilities(people):
     if people is None:
         return {} # Maybe make error
